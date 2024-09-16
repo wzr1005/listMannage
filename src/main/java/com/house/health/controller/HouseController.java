@@ -54,4 +54,16 @@ public class HouseController {
 			return "OK";
 		return "FAIL";
 	}
+	@RequestMapping("/index")
+	public String index(String index) {
+
+		return index;
+	}
+	@RequestMapping("/test")
+	public String test(String name) {
+		if(name == null){
+			name = "test";
+		}
+		return name;
+	}
 }

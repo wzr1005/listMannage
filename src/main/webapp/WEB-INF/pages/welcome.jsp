@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>欢迎回来</title>
+    <title>${pageContext.request.contextPath }欢迎回来</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/layui/css/layui.css">
     <style>
         body{
